@@ -16,7 +16,7 @@ N_LOTS     = 15      # ロット数
 FIRST_ROW  = 5       # データが始まる行
 FIRST_COL  = 1       # ロット1の「実測値」列（0始まり。B列=1）
 COLS_PER_LOT = 4     # 1ロットあたりの列数（実測値・基準・上限・下限）
-FONT_NAME = "Hiragino Sans"    # Windowsなら "MS Gothic" や "Yu Gothic"
+FONT_NAME = "Yu Gothic"    # Windowsなら "MS Gothic" や "Yu Gothic"
 # ==========================================
 
 plt.rcParams["font.family"] = FONT_NAME
